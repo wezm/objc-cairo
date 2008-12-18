@@ -2,12 +2,14 @@
 
 @implementation BTCairoContext : NSObject
 
-- (id)initWithSurface:(id <BTCairoSurface>)surface
+- (id)initWithSurface:(BTCairoSurface *)surface
 {
 	if((self = [super init]) != nil)
 	{
 		context = cairo_create([surface _surface]);
 	}
+
+        return self;
 }
 
 - (cairo_t *)_context
