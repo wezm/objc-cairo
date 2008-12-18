@@ -16,6 +16,8 @@
 		B1A5A23A0EFAF1A1008F1069 /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A5A2390EFAF1A1008F1069 /* libcairo.a */; };
 		B1A5A2460EFAF771008F1069 /* BTCairo.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A5A2450EFAF771008F1069 /* BTCairo.h */; };
 		B1A5A24A0EFAFE94008F1069 /* BTCairoGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A5A2490EFAFE94008F1069 /* BTCairoGeometry.h */; };
+		B1A5A2A00EFB1283008F1069 /* BTCairoPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A5A29E0EFB1283008F1069 /* BTCairoPattern.h */; };
+		B1A5A2A10EFB1283008F1069 /* BTCairoPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5A29F0EFB1283008F1069 /* BTCairoPattern.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		B1A5A2390EFAF1A1008F1069 /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcairo.a; path = /opt/local/lib/libcairo.a; sourceTree = "<absolute>"; };
 		B1A5A2450EFAF771008F1069 /* BTCairo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCairo.h; sourceTree = "<group>"; };
 		B1A5A2490EFAFE94008F1069 /* BTCairoGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCairoGeometry.h; sourceTree = "<group>"; };
+		B1A5A29E0EFB1283008F1069 /* BTCairoPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCairoPattern.h; sourceTree = "<group>"; };
+		B1A5A29F0EFB1283008F1069 /* BTCairoPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCairoPattern.m; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libobjccairo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libobjccairo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,6 +83,8 @@
 			children = (
 				B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */,
 				B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */,
+				B1A5A29E0EFB1283008F1069 /* BTCairoPattern.h */,
+				B1A5A29F0EFB1283008F1069 /* BTCairoPattern.m */,
 				B1A5A22E0EFAF0B9008F1069 /* BTCairoImageSurface.h */,
 				B1A5A22F0EFAF0B9008F1069 /* BTCairoImageSurface.m */,
 				B1A5A2300EFAF0B9008F1069 /* BTCairoSurface.h */,
@@ -132,6 +138,7 @@
 				B1A5A2360EFAF0B9008F1069 /* BTCairoSurface.h in Headers */,
 				B1A5A2460EFAF771008F1069 /* BTCairo.h in Headers */,
 				B1A5A24A0EFAFE94008F1069 /* BTCairoGeometry.h in Headers */,
+				B1A5A2A00EFB1283008F1069 /* BTCairoPattern.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +188,7 @@
 				B1A5A2330EFAF0B9008F1069 /* BTCairoContext.m in Sources */,
 				B1A5A2350EFAF0B9008F1069 /* BTCairoImageSurface.m in Sources */,
 				B1A5A2370EFAF0B9008F1069 /* BTCairoSurface.m in Sources */,
+				B1A5A2A10EFB1283008F1069 /* BTCairoPattern.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

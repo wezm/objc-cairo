@@ -12,6 +12,61 @@
 	return self;
 }
 
+- (void)save
+{
+}
+
+- (void)restore
+{
+}
+
+//- (BTCairoSurface *)getTargetSurface
+//- (void)pushGroup
+//- (void)pushGroupWithContent:(cairo_content_t)content
+- (void)setSourcePattern:(BTCairoPattern *)pattern
+{
+	cairo_set_source(context, [pattern _pattern]);
+}
+
+//- (void)setSourceSurface:(BTCairoSurface *)surface
+//- (BTCairoPattern *)getSourcePattern
+//- (BTCairoSurface *)getSourceSurface
+- (void)setAntiAliasing:(cairo_antialias_t)mode
+{
+	cairo_set_antialias(context, mode);
+}
+
+//- (cairo_antialias_t)getAntiAliasing
+
+- (void)clip
+{
+	cairo_clip(context);
+}
+
+- (void)fill
+{
+	cairo_fill(context);
+}
+
+- (void)maskWithPattern:(BTCairoPattern *)pattern;
+{
+	cairo_mask(context, [pattern _pattern]);
+}
+
+- (void)paint
+{
+	cairo_paint(context);
+}
+
+- (void)stroke
+{
+	cairo_stroke(context);
+}
+
+- (void)showPage
+{
+}
+
 - (cairo_t *)_context
 {
 	return context;

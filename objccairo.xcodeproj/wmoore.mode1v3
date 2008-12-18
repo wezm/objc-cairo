@@ -277,7 +277,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -320,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>BTCairoContext.m</string>
+								<string>BTCairoContext.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>BTCairoContext.m</string>
+										<string>BTCairoContext.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B1A5A29D0EFB10D6008F1069</string>
+										<string>B1A5A2D90EFB1A5E008F1069</string>
 										<key>history</key>
 										<array>
 											<string>B1A5A2590EFB109E008F1069</string>
@@ -340,9 +340,11 @@
 											<string>B1A5A25B0EFB109E008F1069</string>
 											<string>B1A5A25C0EFB109E008F1069</string>
 											<string>B1A5A25D0EFB109E008F1069</string>
-											<string>B1A5A25E0EFB109E008F1069</string>
-											<string>B1A5A29B0EFB10D6008F1069</string>
-											<string>B1A5A2580EFB109E008F1069</string>
+											<string>B1A5A2C80EFB19A2008F1069</string>
+											<string>B1A5A2C90EFB19A2008F1069</string>
+											<string>B1A5A2CA0EFB19A2008F1069</string>
+											<string>B1A5A2D30EFB19F9008F1069</string>
+											<string>B1A5A2D40EFB19F9008F1069</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -404,6 +406,24 @@
 											<string>B1A5A2970EFB109E008F1069</string>
 											<string>B1A5A2980EFB109E008F1069</string>
 											<string>B1A5A29C0EFB10D6008F1069</string>
+											<string>B1A5A2AA0EFB1812008F1069</string>
+											<string>B1A5A2AB0EFB1812008F1069</string>
+											<string>B1A5A2AC0EFB1812008F1069</string>
+											<string>B1A5A2AD0EFB1812008F1069</string>
+											<string>B1A5A2AE0EFB1812008F1069</string>
+											<string>B1A5A2AF0EFB1812008F1069</string>
+											<string>B1A5A2B00EFB1812008F1069</string>
+											<string>B1A5A2B10EFB1812008F1069</string>
+											<string>B1A5A2B20EFB1812008F1069</string>
+											<string>B1A5A2B30EFB1812008F1069</string>
+											<string>B1A5A2B40EFB1812008F1069</string>
+											<string>B1A5A2CC0EFB19A2008F1069</string>
+											<string>B1A5A2CD0EFB19A2008F1069</string>
+											<string>B1A5A2CE0EFB19A2008F1069</string>
+											<string>B1A5A2CF0EFB19A2008F1069</string>
+											<string>B1A5A2D00EFB19A2008F1069</string>
+											<string>B1A5A2D50EFB19F9008F1069</string>
+											<string>B1A5A2D60EFB19F9008F1069</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -597,6 +617,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>B1A5A2410EFAF35B008F1069</string>
 		<string>/Users/wmoore/Source/objc-cairo/objccairo.xcodeproj</string>
 	</array>
@@ -617,14 +638,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>BTCairoSurface.m</string>
+								<string>BTCairoContext.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -641,6 +660,8 @@
 							<string>727pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -796,8 +817,12 @@
 			<integer>0</integer>
 		</dict>
 		<dict>
+			<key>FirstTimeWindowDisplayed</key>
+			<false/>
 			<key>Identifier</key>
 			<string>windowTool.find</string>
+			<key>IsVertical</key>
+			<true/>
 			<key>Layout</key>
 			<array>
 				<dict>
@@ -812,26 +837,16 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>&lt;No Editor&gt;</string>
-										<key>PBXSplitModuleInNavigatorKey</key>
-										<dict>
-											<key>Split0</key>
-											<dict>
-												<key>PBXProjectModuleGUID</key>
-												<string>1CD0528D0623707200166675</string>
-											</dict>
-											<key>SplitCount</key>
-											<string>1</string>
-										</dict>
+										<string></string>
 										<key>StatusBarVisibility</key>
-										<integer>1</integer>
+										<true/>
 									</dict>
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{0, 0}, {781, 167}}</string>
+										<string>{{0, 0}, {781, 212}}</string>
 										<key>RubberWindowFrame</key>
-										<string>62 385 781 470 0 0 1440 878 </string>
+										<string>815 685 781 470 0 0 1920 1178 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXNavigatorGroup</string>
@@ -840,11 +855,11 @@
 								</dict>
 							</array>
 							<key>Proportion</key>
-							<string>50%</string>
+							<string>212pt</string>
 						</dict>
 						<dict>
 							<key>BecomeActive</key>
-							<integer>1</integer>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -855,18 +870,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{8, 0}, {773, 254}}</string>
+								<string>{{0, 217}, {781, 212}}</string>
 								<key>RubberWindowFrame</key>
-								<string>62 385 781 470 0 0 1440 878 </string>
+								<string>815 685 781 470 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXProjectFindModule</string>
 							<key>Proportion</key>
-							<string>50%</string>
+							<string>212pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>428pt</string>
+					<string>429pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -876,23 +891,21 @@
 				<string>PBXProjectFindModule</string>
 			</array>
 			<key>StatusbarIsVisible</key>
-			<integer>1</integer>
+			<true/>
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>1C530D58069F1CE1000CFCEE</string>
-				<string>1C530D59069F1CE1000CFCEE</string>
+				<string>B1A5A2C30EFB182C008F1069</string>
+				<string>B1A5A2C40EFB182C008F1069</string>
 				<string>1CDD528C0622207200134675</string>
-				<string>1C530D5A069F1CE1000CFCEE</string>
-				<string>1CE0B1FE06471DED0097A5F4</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>
 			<key>WindowString</key>
-			<string>62 385 781 470 0 0 1440 878 </string>
+			<string>815 685 781 470 0 0 1920 1178 </string>
 			<key>WindowToolGUID</key>
 			<string>1C530D57069F1CE1000CFCEE</string>
 			<key>WindowToolIsVisible</key>
-			<integer>0</integer>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
