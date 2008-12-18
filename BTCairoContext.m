@@ -7,7 +7,6 @@
 	if((self = [super init]) != nil)
 	{
 		context = cairo_create([surface _surface]);
-		[surface retain];
 	}
 }
 

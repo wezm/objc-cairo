@@ -5,7 +5,7 @@ ADDITIONAL_OBJCFLAGS += -std=c99
 
 #libobjccairo_HEADER_FILES
 
-libobjccairo_INCLUDE_DIRS = -I/opt/local/include/cairo
+libobjccairo_INCLUDE_DIRS = -I/include/cairo -I/opt/local/include/cairo
 
 libobjccairo_OBJC_FILES = BTCairoContext.m \
 						  BTCairoImageSurface.m

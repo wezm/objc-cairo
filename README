@@ -1,1 +1,32 @@
 This aims to be an Objective-C wrapper around the Cairo 2D graphics library
+
+Building
+
+Mac OS X
+
+Install cairo-devel and gnustep-make-cocoa via MacPorts
+
+sudo port install cairo-devel +macosx +no_x11
+sudo port install gnustep-make-cocoa
+
+make
+
+Windows
+
+Install GNUstep
+
+[Insert link here]
+
+Install Cairo
+
+http://inkscape.modevia.com/win32libs/
+http://inkscape.modevia.com/win32libs/cairo-1.6.4-mingw.tar.gz
+Note: the file above is actually a bzip2 archive
+
+Extract the cairo archive into your GNUstep root. This is probably best done via
+cygwin. E.g.
+
+tar --strip-components=2 --show-transformed-names -jxvf /path/to/cairo-1.6.4-mingw.tar.gz
+
+Run make from within a GNUstep shell
+make -f GNUmakefile.win
