@@ -2,9 +2,7 @@
 #import <cairo.h>
 #import "BTCairoSurface.h"
 
-@interface BTCairoImageSurface : NSObject <BTCairoSurface> {
-	cairo_surface_t *surface;
-}
+@interface BTCairoImageSurface : BTCairoSurface
 
 - (id)initWithFormat:(cairo_format_t)format width:(int)width height:(int)height;
 

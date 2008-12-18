@@ -1,7 +1,9 @@
 #import <Foundation/Foundation.h>
 #import <cairo.h>
 
-@protocol BTCairoSurface
+@interface BTCairoSurface : NSObject {
+    cairo_surface_t *surface;
+}
 
 // Private
 - (cairo_surface_t *)_surface;
