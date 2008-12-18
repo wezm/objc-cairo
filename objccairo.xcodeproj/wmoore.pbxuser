@@ -38,7 +38,7 @@
 					453,
 					60,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 				);
@@ -81,6 +81,27 @@
 			sepNavVisRange = "{0, 357}";
 		};
 	};
+	B1A5A22F0EFAF0B9008F1069 /* BTCairoImageSurface.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {671, 872}}";
+			sepNavSelRange = "{305, 0}";
+			sepNavVisRange = "{0, 313}";
+		};
+	};
+	B1A5A2300EFAF0B9008F1069 /* BTCairoSurface.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {671, 872}}";
+			sepNavSelRange = "{80, 0}";
+			sepNavVisRange = "{0, 978}";
+		};
+	};
+	B1A5A2310EFAF0B9008F1069 /* BTCairoSurface.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {671, 1302}}";
+			sepNavSelRange = "{1305, 0}";
+			sepNavVisRange = "{582, 1119}";
+		};
+	};
 	B1A5A23D0EFAF35B008F1069 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		comments = "Command /Developer/usr/bin/gcc-4.0 failed with exit code 1";
@@ -98,6 +119,34 @@
 		rType = 0;
 		vrLen = 357;
 		vrLoc = 0;
+	};
+	B1A5A2430EFAF75A008F1069 /* BTCairoPoint.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {671, 872}}";
+			sepNavSelRange = "{141, 0}";
+			sepNavVisRange = "{0, 141}";
+		};
+	};
+	B1A5A2450EFAF771008F1069 /* BTCairo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {671, 872}}";
+			sepNavSelRange = "{137, 0}";
+			sepNavVisRange = "{0, 142}";
+		};
+	};
+	B1A5A2470EFAFE24008F1069 /* BTCairoRectangle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {671, 872}}";
+			sepNavSelRange = "{177, 0}";
+			sepNavVisRange = "{0, 177}";
+		};
+	};
+	B1A5A2490EFAFE94008F1069 /* BTCairoGeometry.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {671, 872}}";
+			sepNavSelRange = "{395, 0}";
+			sepNavVisRange = "{0, 395}";
+		};
 	};
 	D2AAC07D0554694100DB518D /* objccairo */ = {
 		activeExec = 0;
