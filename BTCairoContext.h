@@ -6,7 +6,7 @@
 	cairo_t *context;
 }
 
-- (id)initWithSurface:(BTCairoSurface *)surface;
+- (id)initWithTargetSurface:(BTCairoSurface *)surface;
 
 // Private
 - (cairo_t *)_context;

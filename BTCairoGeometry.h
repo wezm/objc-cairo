@@ -14,6 +14,11 @@ typedef struct _bt_cairo_point {
 
 typedef BTCairoPoint BTCairoSize;
 
+typedef struct _bc_cairo_dimensions {
+	int width;
+	int height;
+} BTCairoDimensions;
+
 typedef struct _bt_cairo_rectangle {
 	int x;
 	int y;
