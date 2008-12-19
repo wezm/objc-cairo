@@ -80,6 +80,11 @@
 	cairo_move_to(context, x, y);
 }
 
+- (void)rectangle:(double)x y:(double)y width:(double)width height:(double)height
+{
+	cairo_rectangle(context, x, y, width, height);
+}
+
 #pragma mark Private
 
 - (cairo_t *)_context

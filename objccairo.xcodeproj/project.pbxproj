@@ -13,12 +13,32 @@
 		B1A5A2350EFAF0B9008F1069 /* BTCairoImageSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5A22F0EFAF0B9008F1069 /* BTCairoImageSurface.m */; };
 		B1A5A2360EFAF0B9008F1069 /* BTCairoSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A5A2300EFAF0B9008F1069 /* BTCairoSurface.h */; };
 		B1A5A2370EFAF0B9008F1069 /* BTCairoSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5A2310EFAF0B9008F1069 /* BTCairoSurface.m */; };
-		B1A5A23A0EFAF1A1008F1069 /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A5A2390EFAF1A1008F1069 /* libcairo.a */; };
 		B1A5A2460EFAF771008F1069 /* BTCairo.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A5A2450EFAF771008F1069 /* BTCairo.h */; };
 		B1A5A24A0EFAFE94008F1069 /* BTCairoGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A5A2490EFAFE94008F1069 /* BTCairoGeometry.h */; };
 		B1A5A2A00EFB1283008F1069 /* BTCairoPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A5A29E0EFB1283008F1069 /* BTCairoPattern.h */; };
 		B1A5A2A10EFB1283008F1069 /* BTCairoPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5A29F0EFB1283008F1069 /* BTCairoPattern.m */; };
+		B1A5A2FA0EFB2C19008F1069 /* TestApp.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */; };
+		B1A5A3160EFB3043008F1069 /* libobjccairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libobjccairo.a */; };
+		B1A5A3490EFB40F3008F1069 /* libexpat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A5A3440EFB40F3008F1069 /* libexpat.a */; };
+		B1A5A34A0EFB40F3008F1069 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A5A3450EFB40F3008F1069 /* libfreetype.a */; };
+		B1A5A34B0EFB40F3008F1069 /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A5A3460EFB40F3008F1069 /* libpixman-1.a */; };
+		B1A5A34C0EFB40F3008F1069 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A5A3470EFB40F3008F1069 /* libpng.a */; };
+		B1A5A34D0EFB40F3008F1069 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A5A3480EFB40F3008F1069 /* libz.a */; };
+		B1A5A3500EFB4115008F1069 /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A5A34F0EFB4115008F1069 /* libcairo.a */; };
+		B1A5A3540EFB418C008F1069 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A5A3530EFB418C008F1069 /* Quartz.framework */; };
+		B1A5A35A0EFB41A7008F1069 /* libfontconfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A5A3590EFB41A7008F1069 /* libfontconfig.a */; };
+		B1A5A35D0EFB41C0008F1069 /* libiconv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A5A35C0EFB41C0008F1069 /* libiconv.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1A5A2F50EFB2BD9008F1069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D /* objccairo */;
+			remoteInfo = objccairo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -29,20 +49,46 @@
 		B1A5A22F0EFAF0B9008F1069 /* BTCairoImageSurface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCairoImageSurface.m; sourceTree = "<group>"; };
 		B1A5A2300EFAF0B9008F1069 /* BTCairoSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCairoSurface.h; sourceTree = "<group>"; };
 		B1A5A2310EFAF0B9008F1069 /* BTCairoSurface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCairoSurface.m; sourceTree = "<group>"; };
-		B1A5A2390EFAF1A1008F1069 /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcairo.a; path = /opt/local/lib/libcairo.a; sourceTree = "<absolute>"; };
 		B1A5A2450EFAF771008F1069 /* BTCairo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCairo.h; sourceTree = "<group>"; };
 		B1A5A2490EFAFE94008F1069 /* BTCairoGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCairoGeometry.h; sourceTree = "<group>"; };
 		B1A5A29E0EFB1283008F1069 /* BTCairoPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCairoPattern.h; sourceTree = "<group>"; };
 		B1A5A29F0EFB1283008F1069 /* BTCairoPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCairoPattern.m; sourceTree = "<group>"; };
+		B1A5A2F10EFB2BC2008F1069 /* CairoTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CairoTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A5A2F90EFB2C19008F1069 /* TestApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestApp.m; sourceTree = "<group>"; };
+		B1A5A3440EFB40F3008F1069 /* libexpat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libexpat.a; path = /opt/local/lib/libexpat.a; sourceTree = "<absolute>"; };
+		B1A5A3450EFB40F3008F1069 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = /opt/local/lib/libfreetype.a; sourceTree = "<absolute>"; };
+		B1A5A3460EFB40F3008F1069 /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpixman-1.a"; path = "/opt/local/lib/libpixman-1.a"; sourceTree = "<absolute>"; };
+		B1A5A3470EFB40F3008F1069 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = /opt/local/lib/libpng.a; sourceTree = "<absolute>"; };
+		B1A5A3480EFB40F3008F1069 /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = /opt/local/lib/libz.a; sourceTree = "<absolute>"; };
+		B1A5A34F0EFB4115008F1069 /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcairo.a; path = /opt/local/lib/libcairo.a; sourceTree = "<absolute>"; };
+		B1A5A3530EFB418C008F1069 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		B1A5A3590EFB41A7008F1069 /* libfontconfig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfontconfig.a; path = /opt/local/lib/libfontconfig.a; sourceTree = "<absolute>"; };
+		B1A5A35C0EFB41C0008F1069 /* libiconv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiconv.a; path = /opt/local/lib/libiconv.a; sourceTree = "<absolute>"; };
 		D2AAC07E0554694100DB518D /* libobjccairo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libobjccairo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B1A5A2EF0EFB2BC2008F1069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A5A3160EFB3043008F1069 /* libobjccairo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07C0554694100DB518D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1A5A23A0EFAF1A1008F1069 /* libcairo.a in Frameworks */,
+				B1A5A3490EFB40F3008F1069 /* libexpat.a in Frameworks */,
+				B1A5A34A0EFB40F3008F1069 /* libfreetype.a in Frameworks */,
+				B1A5A34B0EFB40F3008F1069 /* libpixman-1.a in Frameworks */,
+				B1A5A34C0EFB40F3008F1069 /* libpng.a in Frameworks */,
+				B1A5A34D0EFB40F3008F1069 /* libz.a in Frameworks */,
+				B1A5A3500EFB4115008F1069 /* libcairo.a in Frameworks */,
+				B1A5A3540EFB418C008F1069 /* Quartz.framework in Frameworks */,
+				B1A5A35A0EFB41A7008F1069 /* libfontconfig.a in Frameworks */,
+				B1A5A35D0EFB41C0008F1069 /* libiconv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				D2AAC07E0554694100DB518D /* libobjccairo.a */,
+				B1A5A2F10EFB2BC2008F1069 /* CairoTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +107,7 @@
 		0867D691FE84028FC02AAC07 /* objccairo */ = {
 			isa = PBXGroup;
 			children = (
+				B1A5A2F70EFB2BE6008F1069 /* TestApp */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
@@ -71,6 +119,7 @@
 		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				B1A5A3530EFB418C008F1069 /* Quartz.framework */,
 				B1A5A2380EFAF165008F1069 /* Libraries */,
 				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
 				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
@@ -121,9 +170,24 @@
 		B1A5A2380EFAF165008F1069 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				B1A5A2390EFAF1A1008F1069 /* libcairo.a */,
+				B1A5A35C0EFB41C0008F1069 /* libiconv.a */,
+				B1A5A3590EFB41A7008F1069 /* libfontconfig.a */,
+				B1A5A34F0EFB4115008F1069 /* libcairo.a */,
+				B1A5A3440EFB40F3008F1069 /* libexpat.a */,
+				B1A5A3450EFB40F3008F1069 /* libfreetype.a */,
+				B1A5A3460EFB40F3008F1069 /* libpixman-1.a */,
+				B1A5A3470EFB40F3008F1069 /* libpng.a */,
+				B1A5A3480EFB40F3008F1069 /* libz.a */,
 			);
 			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B1A5A2F70EFB2BE6008F1069 /* TestApp */ = {
+			isa = PBXGroup;
+			children = (
+				B1A5A2F90EFB2C19008F1069 /* TestApp.m */,
+			);
+			name = TestApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +209,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		B1A5A2F00EFB2BC2008F1069 /* CairoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1A5A2F80EFB2BE7008F1069 /* Build configuration list for PBXNativeTarget "CairoTest" */;
+			buildPhases = (
+				B1A5A2EE0EFB2BC2008F1069 /* Sources */,
+				B1A5A2EF0EFB2BC2008F1069 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1A5A2F60EFB2BD9008F1069 /* PBXTargetDependency */,
+			);
+			name = CairoTest;
+			productName = CairoTest;
+			productReference = B1A5A2F10EFB2BC2008F1069 /* CairoTest */;
+			productType = "com.apple.product-type.tool";
+		};
 		D2AAC07D0554694100DB518D /* objccairo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "objccairo" */;
@@ -176,11 +257,20 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* objccairo */,
+				B1A5A2F00EFB2BC2008F1069 /* CairoTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B1A5A2EE0EFB2BC2008F1069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A5A2FA0EFB2C19008F1069 /* TestApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07B0554694100DB518D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,6 +283,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1A5A2F60EFB2BD9008F1069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* objccairo */;
+			targetProxy = B1A5A2F50EFB2BD9008F1069 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {
@@ -293,6 +391,60 @@
 			};
 			name = Release;
 		};
+		B1A5A2F30EFB2BC2008F1069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				HEADER_SEARCH_PATHS = /opt/local/include/cairo;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CairoTest;
+			};
+			name = Debug;
+		};
+		B1A5A2F40EFB2BC2008F1069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				HEADER_SEARCH_PATHS = /opt/local/include/cairo;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CairoTest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -310,6 +462,15 @@
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
 				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1A5A2F80EFB2BE7008F1069 /* Build configuration list for PBXNativeTarget "CairoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1A5A2F30EFB2BC2008F1069 /* Debug */,
+				B1A5A2F40EFB2BC2008F1069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

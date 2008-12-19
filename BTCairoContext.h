@@ -37,6 +37,7 @@
 // Paths
 - (void)lineTo:(double)x y:(double)y;
 - (void)moveTo:(double)x y:(double)y;
+- (void)rectangle:(double)x y:(double)y width:(double)width height:(double)height;
 
 // Private
 - (cairo_t *)_context;
