@@ -15,6 +15,8 @@
 //- (BTCairoSurface *)getTargetSurface;
 //- (void)pushGroup;
 //- (void)pushGroupWithContent:(cairo_content_t)content;
+- (void)setSourceRed:(double)red green:(double)green blue:(double)blue;
+- (void)setSourceRed:(double)red green:(double)green blue:(double)blue alpha:(double)alpha;
 - (void)setSourcePattern:(BTCairoPattern *)pattern;
 //- (void)setSourceSurface:(BTCairoSurface *)surface;
 //- (BTCairoPattern *)getSourcePattern;
@@ -35,6 +37,8 @@
 - (void)showPage;
 
 // Paths
+- (void)closePath;
+
 - (void)lineTo:(double)x y:(double)y;
 - (void)moveTo:(double)x y:(double)y;
 - (void)rectangle:(double)x y:(double)y width:(double)width height:(double)height;

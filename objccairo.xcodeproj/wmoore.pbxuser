@@ -216,6 +216,21 @@
 			B1A5A3680EFB4364008F1069 /* PBXTextBookmark */ = B1A5A3680EFB4364008F1069 /* PBXTextBookmark */;
 			B1A5A3690EFB4364008F1069 /* PBXTextBookmark */ = B1A5A3690EFB4364008F1069 /* PBXTextBookmark */;
 			B1A5A36A0EFB4364008F1069 /* PBXTextBookmark */ = B1A5A36A0EFB4364008F1069 /* PBXTextBookmark */;
+			B1A5A36C0EFB4488008F1069 /* PBXTextBookmark */ = B1A5A36C0EFB4488008F1069 /* PBXTextBookmark */;
+			B1A5A36D0EFB4488008F1069 /* PBXTextBookmark */ = B1A5A36D0EFB4488008F1069 /* PBXTextBookmark */;
+			B1A5A36E0EFB4488008F1069 /* PBXTextBookmark */ = B1A5A36E0EFB4488008F1069 /* PBXTextBookmark */;
+			B1A5A36F0EFB4488008F1069 /* PBXTextBookmark */ = B1A5A36F0EFB4488008F1069 /* PBXTextBookmark */;
+			B1A5A3700EFB4488008F1069 /* PBXTextBookmark */ = B1A5A3700EFB4488008F1069 /* PBXTextBookmark */;
+			B1A5A3710EFB4488008F1069 /* PBXTextBookmark */ = B1A5A3710EFB4488008F1069 /* PBXTextBookmark */;
+			B1A5A3720EFB4488008F1069 /* PBXTextBookmark */ = B1A5A3720EFB4488008F1069 /* PBXTextBookmark */;
+			B1A5A3750EFB4523008F1069 /* PBXTextBookmark */ = B1A5A3750EFB4523008F1069 /* PBXTextBookmark */;
+			B1A5A3760EFB4523008F1069 /* PBXTextBookmark */ = B1A5A3760EFB4523008F1069 /* PBXTextBookmark */;
+			B1A5A3770EFB4523008F1069 /* PBXTextBookmark */ = B1A5A3770EFB4523008F1069 /* PBXTextBookmark */;
+			B1A5A3780EFB4523008F1069 /* PBXTextBookmark */ = B1A5A3780EFB4523008F1069 /* PBXTextBookmark */;
+			B1A5A3790EFB4523008F1069 /* PBXTextBookmark */ = B1A5A3790EFB4523008F1069 /* PBXTextBookmark */;
+			B1A5A37A0EFB4523008F1069 /* PBXTextBookmark */ = B1A5A37A0EFB4523008F1069 /* PBXTextBookmark */;
+			B1A5A37B0EFB4523008F1069 /* PBXTextBookmark */ = B1A5A37B0EFB4523008F1069 /* PBXTextBookmark */;
+			B1A5A37D0EFB453E008F1069 /* PBXTextBookmark */ = B1A5A37D0EFB453E008F1069 /* PBXTextBookmark */;
 		};
 		sourceControlManager = B1A5A0D30EFAF04B008F1069 /* Source Control */;
 		userBuildSettings = {
@@ -235,15 +250,15 @@
 	B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {671, 872}}";
-			sepNavSelRange = "{952, 0}";
-			sepNavVisRange = "{0, 993}";
+			sepNavSelRange = "{957, 17}";
+			sepNavVisRange = "{0, 1177}";
 		};
 	};
 	B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {671, 1428}}";
-			sepNavSelRange = "{1360, 0}";
-			sepNavVisRange = "{620, 828}";
+			sepNavIntBoundsRect = "{{0, 0}, {671, 1652}}";
+			sepNavSelRange = "{1419, 0}";
+			sepNavVisRange = "{999, 789}";
 		};
 	};
 	B1A5A22E0EFAF0B9008F1069 /* BTCairoImageSurface.h */ = {
@@ -1035,7 +1050,7 @@
 		isa = PBXTextBookmark;
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 12";
-		rLen = 559;
+		rLen = 723;
 		rLoc = 224;
 		rType = 0;
 		vrLen = 787;
@@ -1066,7 +1081,7 @@
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 22";
 		rLen = 0;
-		rLoc = 993;
+		rLoc = 1177;
 		rType = 0;
 		vrLen = 382;
 		vrLoc = 0;
@@ -1155,7 +1170,7 @@
 		isa = PBXTextBookmark;
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 12";
-		rLen = 559;
+		rLen = 723;
 		rLoc = 224;
 		rType = 0;
 		vrLen = 787;
@@ -1165,7 +1180,7 @@
 		isa = PBXTextBookmark;
 		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
 		name = "BTCairoContext.m: 15";
-		rLen = 799;
+		rLen = 1088;
 		rLoc = 231;
 		rType = 0;
 		vrLen = 880;
@@ -1306,7 +1321,7 @@
 		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
 		name = "BTCairoContext.m: 53";
 		rLen = 0;
-		rLoc = 895;
+		rLoc = 1184;
 		rType = 0;
 		vrLen = 805;
 		vrLoc = 214;
@@ -1316,7 +1331,7 @@
 		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
 		name = "BTCairoContext.m: 28";
 		rLen = 0;
-		rLoc = 485;
+		rLoc = 774;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 125;
@@ -1356,7 +1371,7 @@
 		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
 		name = "BTCairoContext.m: 53";
 		rLen = 0;
-		rLoc = 895;
+		rLoc = 1184;
 		rType = 0;
 		vrLen = 805;
 		vrLoc = 214;
@@ -1366,7 +1381,7 @@
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 29";
 		rLen = 0;
-		rLoc = 730;
+		rLoc = 894;
 		rType = 0;
 		vrLen = 787;
 		vrLoc = 0;
@@ -1376,7 +1391,7 @@
 		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
 		name = "BTCairoContext.m: 51";
 		rLen = 0;
-		rLoc = 846;
+		rLoc = 1135;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 214;
@@ -1386,7 +1401,7 @@
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 29";
 		rLen = 51;
-		rLoc = 680;
+		rLoc = 844;
 		rType = 0;
 		vrLen = 824;
 		vrLoc = 0;
@@ -1396,7 +1411,7 @@
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 29";
 		rLen = 51;
-		rLoc = 680;
+		rLoc = 844;
 		rType = 0;
 		vrLen = 824;
 		vrLoc = 0;
@@ -1406,7 +1421,7 @@
 		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
 		name = "BTCairoContext.m: 51";
 		rLen = 0;
-		rLoc = 846;
+		rLoc = 1135;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 214;
@@ -1416,7 +1431,7 @@
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 29";
 		rLen = 0;
-		rLoc = 696;
+		rLoc = 860;
 		rType = 0;
 		vrLen = 824;
 		vrLoc = 0;
@@ -1426,7 +1441,7 @@
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 39";
 		rLen = 0;
-		rLoc = 952;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 868;
 		vrLoc = 0;
@@ -1463,8 +1478,8 @@
 	B1A5A2F90EFB2C19008F1069 /* TestApp.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {756, 872}}";
-			sepNavSelRange = "{682, 0}";
-			sepNavVisRange = "{0, 966}";
+			sepNavSelRange = "{873, 0}";
+			sepNavVisRange = "{0, 994}";
 		};
 	};
 	B1A5A2FC0EFB2C96008F1069 /* PBXTextBookmark */ = {
@@ -1472,7 +1487,7 @@
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 37";
 		rLen = 0;
-		rLoc = 786;
+		rLoc = 950;
 		rType = 0;
 		vrLen = 910;
 		vrLoc = 0;
@@ -1482,7 +1497,7 @@
 		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
 		name = "BTCairoContext.m: 80";
 		rLen = 0;
-		rLoc = 1225;
+		rLoc = 1565;
 		rType = 0;
 		vrLen = 909;
 		vrLoc = 385;
@@ -1492,7 +1507,7 @@
 		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
 		name = "TestApp.m: 4";
 		rLen = 0;
-		rLoc = 966;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 55;
 		vrLoc = 0;
@@ -1512,7 +1527,7 @@
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 39";
 		rLen = 76;
-		rLoc = 793;
+		rLoc = 977;
 		rType = 0;
 		vrLen = 944;
 		vrLoc = 0;
@@ -1522,7 +1537,7 @@
 		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
 		name = "BTCairoContext.m: 73";
 		rLen = 0;
-		rLoc = 1227;
+		rLoc = 1567;
 		rType = 0;
 		vrLen = 844;
 		vrLoc = 436;
@@ -1532,7 +1547,7 @@
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 37";
 		rLen = 0;
-		rLoc = 786;
+		rLoc = 950;
 		rType = 0;
 		vrLen = 910;
 		vrLoc = 0;
@@ -1542,7 +1557,7 @@
 		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
 		name = "BTCairoContext.m: 80";
 		rLen = 0;
-		rLoc = 1225;
+		rLoc = 1565;
 		rType = 0;
 		vrLen = 909;
 		vrLoc = 385;
@@ -1572,7 +1587,7 @@
 		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
 		name = "TestApp.m: 4";
 		rLen = 0;
-		rLoc = 966;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 55;
 		vrLoc = 0;
@@ -1602,7 +1617,7 @@
 		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
 		name = "TestApp.m: 4";
 		rLen = 0;
-		rLoc = 966;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 55;
 		vrLoc = 0;
@@ -1622,7 +1637,7 @@
 		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
 		name = "TestApp.m: 14";
 		rLen = 0;
-		rLoc = 772;
+		rLoc = 690;
 		rType = 0;
 		vrLen = 600;
 		vrLoc = 0;
@@ -1632,7 +1647,7 @@
 		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
 		name = "TestApp.m: 17";
 		rLen = 0;
-		rLoc = 849;
+		rLoc = 877;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 0;
@@ -1642,7 +1657,7 @@
 		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
 		name = "TestApp.m: 17";
 		rLen = 0;
-		rLoc = 566;
+		rLoc = 520;
 		rType = 0;
 		vrLen = 813;
 		vrLoc = 0;
@@ -1652,7 +1667,7 @@
 		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
 		name = "TestApp.m: 17";
 		rLen = 0;
-		rLoc = 566;
+		rLoc = 520;
 		rType = 0;
 		vrLen = 813;
 		vrLoc = 0;
@@ -1662,7 +1677,7 @@
 		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
 		name = "TestApp.m: 17";
 		rLen = 0;
-		rLoc = 566;
+		rLoc = 520;
 		rType = 0;
 		vrLen = 813;
 		vrLoc = 0;
@@ -1672,7 +1687,7 @@
 		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
 		name = "TestApp.m: 17";
 		rLen = 0;
-		rLoc = 566;
+		rLoc = 520;
 		rType = 0;
 		vrLen = 813;
 		vrLoc = 0;
@@ -1692,7 +1707,7 @@
 		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
 		name = "TestApp.m: 21";
 		rLen = 0;
-		rLoc = 683;
+		rLoc = 637;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 0;
@@ -1702,7 +1717,7 @@
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 41";
 		rLen = 0;
-		rLoc = 952;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 993;
 		vrLoc = 0;
@@ -1712,7 +1727,7 @@
 		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
 		name = "BTCairoContext.m: 85";
 		rLen = 0;
-		rLoc = 1360;
+		rLoc = 1700;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 620;
@@ -1722,7 +1737,7 @@
 		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
 		name = "TestApp.m: 18";
 		rLen = 0;
-		rLoc = 665;
+		rLoc = 619;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 0;
@@ -1732,7 +1747,7 @@
 		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
 		name = "TestApp.m: 18";
 		rLen = 0;
-		rLoc = 665;
+		rLoc = 619;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 0;
@@ -1742,7 +1757,7 @@
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 41";
 		rLen = 0;
-		rLoc = 952;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 993;
 		vrLoc = 0;
@@ -1752,7 +1767,7 @@
 		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
 		name = "BTCairoContext.m: 85";
 		rLen = 0;
-		rLoc = 1360;
+		rLoc = 1700;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 620;
@@ -1762,9 +1777,159 @@
 		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
 		name = "TestApp.m: 19";
 		rLen = 0;
-		rLoc = 682;
+		rLoc = 636;
 		rType = 0;
 		vrLen = 966;
+		vrLoc = 0;
+	};
+	B1A5A36C0EFB4488008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
+		name = "BTCairoContext.h: 18";
+		rLen = 164;
+		rLoc = 374;
+		rType = 0;
+		vrLen = 1157;
+		vrLoc = 0;
+	};
+	B1A5A36D0EFB4488008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
+		name = "BTCairoContext.m: 34";
+		rLen = 0;
+		rLoc = 670;
+		rType = 0;
+		vrLen = 1086;
+		vrLoc = 214;
+	};
+	B1A5A36E0EFB4488008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
+		name = "TestApp.m: 22";
+		rLen = 0;
+		rLoc = 748;
+		rType = 0;
+		vrLen = 966;
+		vrLoc = 0;
+	};
+	B1A5A36F0EFB4488008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
+		name = "TestApp.m: 22";
+		rLen = 0;
+		rLoc = 748;
+		rType = 0;
+		vrLen = 966;
+		vrLoc = 0;
+	};
+	B1A5A3700EFB4488008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
+		name = "BTCairoContext.h: 18";
+		rLen = 164;
+		rLoc = 374;
+		rType = 0;
+		vrLen = 1157;
+		vrLoc = 0;
+	};
+	B1A5A3710EFB4488008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
+		name = "BTCairoContext.m: 34";
+		rLen = 0;
+		rLoc = 670;
+		rType = 0;
+		vrLen = 1086;
+		vrLoc = 214;
+	};
+	B1A5A3720EFB4488008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
+		name = "TestApp.m: 20";
+		rLen = 0;
+		rLoc = 687;
+		rType = 0;
+		vrLen = 884;
+		vrLoc = 0;
+	};
+	B1A5A3750EFB4523008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
+		name = "BTCairoContext.h: 40";
+		rLen = 17;
+		rLoc = 957;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 0;
+	};
+	B1A5A3760EFB4523008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
+		name = "BTCairoContext.m: 86";
+		rLen = 0;
+		rLoc = 1419;
+		rType = 0;
+		vrLen = 789;
+		vrLoc = 999;
+	};
+	B1A5A3770EFB4523008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
+		name = "TestApp.m: 26";
+		rLen = 0;
+		rLoc = 860;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 0;
+	};
+	B1A5A3780EFB4523008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
+		name = "TestApp.m: 26";
+		rLen = 0;
+		rLoc = 860;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 0;
+	};
+	B1A5A3790EFB4523008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
+		name = "BTCairoContext.h: 40";
+		rLen = 17;
+		rLoc = 957;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 0;
+	};
+	B1A5A37A0EFB4523008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */;
+		name = "BTCairoContext.m: 86";
+		rLen = 0;
+		rLoc = 1419;
+		rType = 0;
+		vrLen = 789;
+		vrLoc = 999;
+	};
+	B1A5A37B0EFB4523008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
+		name = "TestApp.m: 25";
+		rLen = 0;
+		rLoc = 834;
+		rType = 0;
+		vrLen = 996;
+		vrLoc = 0;
+	};
+	B1A5A37D0EFB453E008F1069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1A5A2F90EFB2C19008F1069 /* TestApp.m */;
+		name = "TestApp.m: 27";
+		rLen = 0;
+		rLoc = 873;
+		rType = 0;
+		vrLen = 994;
 		vrLoc = 0;
 	};
 	D2AAC07D0554694100DB518D /* objccairo */ = {

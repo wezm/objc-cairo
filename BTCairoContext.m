@@ -23,6 +23,17 @@
 //- (BTCairoSurface *)getTargetSurface
 //- (void)pushGroup
 //- (void)pushGroupWithContent:(cairo_content_t)content
+
+- (void)setSourceRed:(double)red green:(double)green blue:(double)blue
+{
+	[self setSourceRed:red green:green blue:blue alpha:1.0];
+}
+
+- (void)setSourceRed:(double)red green:(double)green blue:(double)blue alpha:(double)alpha
+{
+	cairo_set_source_rgba(context, red, green, blue, alpha);
+}
+
 - (void)setSourcePattern:(BTCairoPattern *)pattern
 {
 	cairo_set_source(context, [pattern _pattern]);
@@ -69,6 +80,11 @@
 }
 
 #pragma mark Paths
+
+- (void)closePath
+{
+	cairo_close_path(context);
+}
 
 - (void)lineTo:(double)x y:(double)y
 {
