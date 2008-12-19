@@ -34,11 +34,9 @@
 
 - (void)showPage;
 
-#pragma mark Paths
-
-
-
-#pragma mark Private
+// Paths
+- (void)lineTo:(double)x y:(double)y;
+- (void)moveTo:(double)x y:(double)y;
 
 // Private
 - (cairo_t *)_context;

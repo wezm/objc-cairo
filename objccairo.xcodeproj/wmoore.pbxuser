@@ -201,15 +201,15 @@
 	B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {671, 872}}";
-			sepNavSelRange = "{804, 0}";
-			sepNavVisRange = "{0, 868}";
+			sepNavSelRange = "{786, 0}";
+			sepNavVisRange = "{0, 910}";
 		};
 	};
 	B1A5A22D0EFAF0B9008F1069 /* BTCairoContext.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {671, 1176}}";
-			sepNavSelRange = "{846, 0}";
-			sepNavVisRange = "{214, 865}";
+			sepNavIntBoundsRect = "{{0, 0}, {671, 1246}}";
+			sepNavSelRange = "{1131, 0}";
+			sepNavVisRange = "{436, 844}";
 		};
 	};
 	B1A5A22E0EFAF0B9008F1069 /* BTCairoImageSurface.h */ = {
@@ -1032,7 +1032,7 @@
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 22";
 		rLen = 0;
-		rLoc = 868;
+		rLoc = 910;
 		rType = 0;
 		vrLen = 382;
 		vrLoc = 0;
@@ -1392,7 +1392,7 @@
 		fRef = B1A5A22C0EFAF0B9008F1069 /* BTCairoContext.h */;
 		name = "BTCairoContext.h: 39";
 		rLen = 0;
-		rLoc = 804;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 868;
 		vrLoc = 0;

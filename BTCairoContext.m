@@ -65,7 +65,22 @@
 
 - (void)showPage
 {
+	cairo_show_page(context);
 }
+
+#pragma mark Paths
+
+- (void)lineTo:(double)x y:(double)y
+{
+	cairo_line_to(context, x, y);
+}
+
+- (void)moveTo:(double)x y:(double)y
+{
+	cairo_move_to(context, x, y);
+}
+
+#pragma mark Private
 
 - (cairo_t *)_context
 {
